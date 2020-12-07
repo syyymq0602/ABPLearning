@@ -1,2 +1,8 @@
-# ABPLearning
-Study for the ABP
+# Asp.net core Learning
+
+Study for the .net core
+
+### RazorPageMoive
+1. 教程参考官网 [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/razor-pages/?view=aspnetcore-5.0) 。
+2. 具体功能的实现是做了一个简单的Web前后端应用程序，通过URL对应的请求把数据存取到本地MySQL中。
+3. 相对于官网教程有改动：删除了Pages/Shared/_Layout.cshtml文件关于Home组件的显示，并加上了Pages/Movies/Index的组件，通过组件可以直接进入到Movies的索引界面，不需要再手动输入改变URL跳转。
