@@ -9,3 +9,7 @@ Study for the .net core
 
 ### MvcMovie
 1. 教程参考官网 [Mvc](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio) 。
+
+### TodoAPI
+1. 编写了Web后端，Controller负责处理HTTP请求逻辑，TodoItemDTO负责页面显示。
+2. 加入了使用JS的前端代码，前端样式有待改善。
