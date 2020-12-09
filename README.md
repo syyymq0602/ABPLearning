@@ -28,3 +28,5 @@ Study for the .net core
 *****
 ##### 使用JavaScript的SignalR
 1. 参考官网基础教程使用[JavaScript的SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio)，实现自我通信。
+##### 使用Blazor的SignalR
+1. Blazor界面风格可扩展化，较好的UI界面，教程参考[使用Blazor的SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/signalr-blazor-webassembly?view=aspnetcore-5.0)。
