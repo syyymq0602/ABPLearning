@@ -23,3 +23,8 @@ Study for the .net core
     + 配置数据存储位置以及日志记录位置：打开cmd命令行窗口，输入`mongod -dbpath E:\MongoDB\data -logpath E:\MongoDB\log\mongod.log -install -serviceName "MongoDB"`(备注：-指不删除之前的数据进行配置  --指删除之前的数据再配置)
     + cmd管理员身份运行：`net start mongodb`即启动服务
 2. 使用[Postman](https://www.postman.com/downloads/) 可以测试API，![postman](./img/postman.jpg)启动服务后通过对应的GET、POST等请求来执行对MongoDB数据库的操作，利用MongoDBCompass可以查看对应数据库数据。![MongoDBCompass](./img/Compass.jpg)
+
+### 实时通信
+*****
+##### 使用JavaScript的SignalR
+1. 参考官网基础教程使用[JavaScript的SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio)，实现自我通信。
