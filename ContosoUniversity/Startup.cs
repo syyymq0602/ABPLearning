@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ContosoUniversity
 {
@@ -25,6 +26,13 @@ namespace ContosoUniversity
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var MyMaxModelBindingCollectionSize = 200;
+            //Int32.TryParse(Configuration["MyMaxModelBindingCollectionSize"],
+            //                   out MyMaxModelBindingCollectionSize);
+
+            services.Configure<MvcOptions>(options =>
+                options.MaxModelBindingCollectionSize = MyMaxModelBindingCollectionSize);
+
             services.AddRazorPages();
 
             services.AddDbContext<SchoolContext>(options =>
